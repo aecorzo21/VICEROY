@@ -1,18 +1,63 @@
 >📋  A template README.md for code accompanying a Machine Learning paper
 
-# My Paper Title
+# VICEROY
 
-This repository is the official implementation of [My Paper Title](https://arxiv.org/abs/2030.12345). 
+This repository is the official implementation of [VICEROY](https://arxiv.org/abs/2030.12345). 
 
 >📋  Optional: include a graphic explaining your approach/main result, bibtex entry, link to demos, blog posts and tutorials
 
-## Requirements
+### Todo
+
+- [x] Work on Github Repo
+- [ ] Implement Client worker Code
+- [ ] Include PCA
+- [ ] Include differential privacy
+- [ ] Implement VFL concept
+
+
+## Environment Setup
+
+#### Install Visual Studitio Code before setting up the environment
+
+*[Vscode link](https://code.visualstudio.com/Download)*
+
+#### Install Docker 
+*[Docker link](https://www.docker.com/)*
+
+
+## Framework and Used Library
+
+* ### Develope environment : Docker
+* ### Languaage and version : Python 3.9
+* ### FL framework : Pysyft
+* ### FL client (worker) : syft.js
+* ### VFL library : PyVertical
 
 To install requirements:
 
-```setup
-pip install -r requirements.txt
+Step 0 Create an empty Folder call VFL and open it with Visual Studio Code
+
+Step 1 Clone the repository
+```clone the repository 
+git clone https://github.com/AlexTsai1618/VICEROY.git
+
 ```
+Step 2 launch docker
+
+Step 3 Launch devcontainer
+
+* Step 3-1
+Go to the bottom left side and click it
+    ![](./img/Step1.png)
+
+* Step 3-2
+Select the Reopen in Container to launch the devcontainer
+
+    ![](./img/Step2.png)
+
+* Result
+Check whether the devcontainer is successfully
+    ![](./img/Result.png)
 
 >📋  Describe how to set up the environment, e.g. pip/conda/docker commands, download datasets, etc...
 
